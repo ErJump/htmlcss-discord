@@ -321,7 +321,25 @@ ul a:hover{
 
 .login .button:hover{
     color: #255ee9;
+    box-shadow: 0px 10px rgba(0, 0, 0, 0.1);
 }
+
+.first-sec-content-buttons .button:hover{
+    color: #255ee9;
+    box-shadow: 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.first-sec-content-buttons .button-black:hover{
+    box-shadow: 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #23272a;
+}
+
+.button-cta:hover, .last-button:hover{
+    box-shadow: 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #8b9fe7;
+}
+
+
 
 
 
