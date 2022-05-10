@@ -295,5 +295,35 @@ span{
     text-decoration: none;
 }
 
+/* bonus */
+.wave{
+    margin-bottom: -4px;
+}
+.wave img{
+    opacity: 0.04;
+}
+
+.wave-rotated{
+    margin-bottom: -4px;
+}
+.wave-rotated img{
+    opacity: 0.04;
+    transform: rotate(180deg);
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+ul a:hover{
+    text-decoration: underline;
+}
+
+.login .button:hover{
+    color: #255ee9;
+}
+
+
+
 
 
