@@ -2,10 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
+img{
+    width: 100%;
+}
+
+.button{
+    border-radius: 20px;
+    padding: 13px;
+    background-color: white;
+    font-size: 14px;
+    color: black;
+}
+
+.button-black{
+    border-radius: 20px;
+    padding: 13px;
+    background-color: black;
+    font-size: 14px;
+    color: white;
+}
+
+/* header */
+
 header{
-    background-color: #add8e6;
+    background-color: #255ee9;
+}
+
+.logo img{
+    width: 130px;
 }
 
 .header-first{
@@ -14,8 +41,9 @@ header{
 
 .head-content{
     display: flex;
-    max-width: 70%;
+    max-width: 1200px;
     margin: 0 auto;
+    justify-content: space-between;
 }
 
 ul{
@@ -30,25 +58,26 @@ li{
 li a{
     text-decoration: none;
     display: inline-block;
-    padding: 6px;
+    padding: 15px 15px 15px 6px;
+    font-size: 18px;
+    color: white;
 }
+
+/* .damn::hover{
+    text-decoration: underline;
+} */
 
 .logo{
-    flex-grow: 1;
-    background-color: #daa520;
     padding: 6px;
-}
-
-.menu{
-    flex-grow: 3;
-    background-color: #daa520;
 }
 
 .login{
-    flex-grow: 1;
-    background-color: #daa520;
-    text-align: end;
     padding: 6px;
+}
+
+.login a{
+    text-decoration: none;
+    color: black;
 }
 
 .border{
@@ -56,17 +85,41 @@ li a{
 }
 
 .first-sec{
-    background-color: #00008b;
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 40px 0;
-    border-bottom: 3px solid #add8e6;
 }
 
 .first-sec-content{
     width: 500px;
-    height: 280px;
-    margin: 0 auto;
-    background-color: #ee82ee;
+    margin: 60px auto 0 auto;
+    color: white;
+    text-align: center;
 }
+
+.first-sec-content h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.first-sec-content p{
+    line-height: 30px;
+}
+
+.first-sec-content-buttons div{
+    display: inline-block;
+}
+
+.first-sec-content-buttons{
+    margin-top: 20px;
+}
+
+.first-sec-content-buttons .button-black{
+    margin-left: 10px;
+}
+
+/* main */
 
 .second-sec{
     background-color: white;
@@ -114,6 +167,8 @@ li a{
     margin: 0 auto;
     background-color: #228b22;
 }
+
+/* footer */
 
 footer{
     background-color: #23272a;
